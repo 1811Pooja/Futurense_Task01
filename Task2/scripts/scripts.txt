@@ -1,0 +1,7 @@
+CREATE TABLE Users (
+     UserName VARCHAR2(50),
+    Email VARCHAR2(100) UNIQUE
+    
+);
+
+select * from users;
